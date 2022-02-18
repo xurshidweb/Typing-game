@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Varela", sans-serif;
+  background-color: rgb(26, 20, 20);
+  color: white;
+}
+.header {
+  min-width: 100%;
+  background-color: gray;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 6rem;
+}
+.header ul li {
+  list-style: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.word-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+.number {
+  color: red;
+}
+.word-section h1 {
+  font-size: 47px;
+}
+.basicblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  background-color: black;
+  gap: 2rem;
+  margin: 1.5% auto;
+  z-index: 10;
+}
+.basicblock input {
+  width: 100%;
+  height: 45px;
+  font-size: 27px;
+  border: none;
+  outline: none;
+}
+.selectblock select {
+  /* padding: 0.2rem 1.3rem; */
+  width: 160%;
+  height: 30px;
+  font-size: 20px;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.time-score {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.time-score p {
+  font-size: 26px;
+}
+.introduction {
+  width: 100%;
+  text-align: center;
+  padding: 1.3rem;
+  background-color: rgb(41, 40, 40);
+}
+.introduction h2 {
+  text-align: center;
+  font-weight: 400;
+}
+.showblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 70;
+    gap: 2rem;
+    background-color: white;
+    color: red;
+    width: 400px;
+    height: 200px;
+    /* margin: 200px auto; */
+    
+}
+.showblock button {
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.showblock p {
+    font-size: 27px;
+}
+.showblock h1 {
+    font-size: 38px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: blur(3px);
+  width: 100%;
+  height: 130%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hidden {
+    display: none;
+}
+.networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13%;
+}
+.networks i {
+  font-size: 20px;
+}
+.networks button {
+  background-color: transparent;
+  border: none;
+}
+
+
